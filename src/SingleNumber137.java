@@ -1,6 +1,6 @@
 import java.util.Arrays;
 
-public class SingleNumberⅡ137 {
+public class SingleNumber137 {
     public int singleNumber(int[] nums) {
         //记录结果
         int res = 0;
