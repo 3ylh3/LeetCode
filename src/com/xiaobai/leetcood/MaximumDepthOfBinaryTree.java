@@ -1,13 +1,13 @@
 package com.xiaobai.leetcood;
 
-class TreeNode {
+class TreeNode1{
     int val;
-    TreeNode left;
-    TreeNode right;
-    TreeNode(int x) { val = x; }
+    TreeNode1 left;
+    TreeNode1 right;
+    TreeNode1(int x) { val = x; }
  }
 public class MaximumDepthOfBinaryTree {
-    static int maxDepth(TreeNode root) {
+    static int maxDepth(TreeNode1 root) {
         if (root == null){
             return 0;
         }
